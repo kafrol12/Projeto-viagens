@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: #004B50;
+    padding: 12px 32px;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-menu .escritas-nav {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-menu img {
+    height: 90px;
+    display: block;
+    margin-left: 20px;
+}
+
+.Titulo-nav {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.btn-entrar {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+.btn-reservas {
+    background: none;
+    border: 2px solid #FFC66D;
+    color: #FFC66D;
+    font-size: 23px;
+    padding: 8px 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+.btn-entrar:hover {
+    color: #FFC66D;
+}
+
+.btn-reservas:hover {
+    background-color: #FFC66D;
+    color: #004B50;
+}
+
+.primeiro-titulo {
+    color: #fff;
+    font-size: 53px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.segundo-titulo {
+    color: #FFC66D;
+    font-size: 53px;
+    margin-left: 50px;
+}
+
+.primeira-descricao {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.segunda-descricao {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.explorar-destino {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent), url('../img/Pequenos-Lencois-Maranhenses.png');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.btn-explorar {
+    background: none;
+    border: 2px solid #FFC66D;
+    color: #f0f0f0;
+    max-width: 300px;
+    font-size: 23px;
+    padding: 8px 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-top: 60px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+.btn-explorar:hover {
+    background-color: #FFC66D;
+    color: #004B50;
+}
+
+.destinos-text{
+    background-image:url('../img/Pequenos-Lencois-Maranhenses.png');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.titulo-text {
+    color: #fff;
+    font-size: 53px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.descricao-text {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.segunda-descricao-text {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.informacoes {
+    background-color: #D3E9E2;
+    padding: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone-informacoes {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.titulo-informacoes {
+    color: #005034;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.descricao-informacoes {
+    color: #005034;
+    font-size: 16px;
+    list-style: none;
+}
+.destino-em-alta {
+    background-color: #CBDFD9;
+    padding-bottom: 80px;
+}
+
+.titulo-destino-em-alta{
+    font-style: italic;
+    padding-top:40px;
+    font-size: 50px;
+    color: #004B50;
+    list-style: none;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.destino-em-alta-lista {
+    padding: 12px 32px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.destino-em-alta-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.destino-em-alta-item img {
+    margin-bottom: 8px;
+    min-width: 300px;
+}
+
+.descricao-destino-em-alta {
+    color: #004B50;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.preco-destino-em-alta {
+    color: #004B50;
+    font-size: 30px;
+    list-style: none;
+}
+
+.ofertas-especiais {
+    background-image:url('../img/cristo redentor.png');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+.titulo-ofertas-especiais {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.descricao-ofertas-especiais {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight: bold;
+}

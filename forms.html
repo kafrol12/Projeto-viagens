@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+<body>
+    <div class="container">
+        <header class="menu">
+               <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html"><img src="img/logo.png" alt="Logo da empresa alem do horizonte"></a></li>
+                    <li><spam class="Titulo-nav">Alem do Horizonte</spam></li>
+                    <div class="escritas-nav">
+                    <li><a>Inicio</a></li>
+                    <li><a>Destinos</a></li>
+                    <li><a>Ofertas</a></li>
+                    <li><a>Contato</a></li>
+                    <li><button class="btn-entrar">Entrar</button></li>
+                    <li><a href="forms.html"><button class="btn-reservas">Reservas</button></a></li>
+                    </div>
+                </ul>
+               </nav>
+        </header>
+
+
+        <div class="preecha forms">
+            <h1>Preencha o formulário<br>e garanta sua próxima aventura</h1>
+        <h3>É rápido, prático e seguro. Estamos prontos para te ajudar<br>a viver experiências inesquecíveis</h3>
+        </div>
+
+        <div class="formulario">
+            <form class="form-viagem" action="processar_formulario.php" method="POST">
+
+                <div class="grupo-form">
+                    <label class="titulo-form" for="destino"><span class="icone-form"><img src="img/andrsrxn_map-pin.png" alt="Localização"></span>Destino</label>
+                    <input class="campo-form" type="text" id="destino" name="destino" placeholder="Escolha o destino" required>
+                </div>
+
+                <div class="grupo-form">
+                    <label class="titulo-form" for="data-ida"><span class="icone-form"><img src="img/andrsrxn_calendar-days.png" alt="calendario"></span>Periodo da viagem</label>
+                    <div class="linha-form">
+                        <input class="campo-form" type="date" id="data-ida" name="data-ida" title="Data de ida" required>
+                        <input class="campo-form" type="date" id="data-volta" name="data-volta" title="Data de volta" required>
+                    </div>
+                </div>
+
+                <div class="grupo-form">
+                    <label class="titulo-form" for="viajantes"><span class="icone-form"><img src="img/pessoas.png" alt="Viajantes"></span>Viajantes</label>
+                    <input class="campo-form" type="number" id="viajantes" name="viajantes" min="1" placeholder="Quantidade de pessoas" required>
+                </div>
+
+                <div class="grupo-form">
+                    <label class="titulo-form" for="nome"><span class="icone-form"><img src="img/icon-park-twotone_people.png" alt="Usuário"></span>Seus dados</label>
+                    <input class="campo-form" type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                    <div class="linha-form">
+                        <input class="campo-form" type="email" id="email" name="email" placeholder="E-mail" required>
+                        <input class="campo-form" type="tel" id="whatsapp" name="whatsapp" placeholder="WhatsApp" required>
+                    </div>
+                </div>
+
+                <div class="grupo-form">
+                    <label class="titulo-form" for="observacoes"><span class="icone-form"><img src="img/griddy-icons_annotation-text.png" alt="Observações"></span>Observações <span class="opcional">(opcional)</span></label>
+                    <textarea class="campo-form" id="observacoes" name="observacoes" placeholder="Alguma informação especial? Ex: quarto, preferência de voo, etc."></textarea>
+                </div>
+
+                <button class="btn-enviar" type="submit">Enviar solicitação</button>
+
+                <span class="seguranca-form"><img src="img/basil_lock-solid.png" alt="Segurança"> Seus dados estão seguros conosco.</span>
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+
+        <nav class="nav-foorter">
+                <ul>
+                    <li><a href="index.html"><img src="img/logo.png" alt="Logo da empresa alem do horizonte"></a></li>
+                    <li><spam class="Titulo-nav">Alem do Horizonte</spam></li>
+                    <div class="escritas-nav">
+                    <li><a>Inicio</a></li>
+                    <li><a>Destinos</a></li>
+                    <li><a>Ofertas</a></li>
+                    <li><a>Contato</a></li>
+                    <li><img src="img/Group.png" alt="Ícone de rede social" style="background-color: black;"></li>
+                    </div>
+                </ul>
+               </nav>
+
+        <p>© 2026 Álem do Horizonte. Todos os direitos reservados </p>
+    </footer>
+
+</body>
+</html>
