@@ -1,0 +1,321 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d9e5df;
+    font-family: Georgia, serif;
+}
+
+/* MENU */
+
+.menu{
+    background: #045850;
+    padding: 15px 30px;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-menu img{
+    width: 50px;
+}
+
+.Titulo-nav{
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.escritas-nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.escritas-nav a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* BOTÕES DO MENU */
+
+.btn-entrar{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-reservas{
+    background: transparent;
+    border: 1px solid #d2c175;
+    color: #d2c175;
+    border-radius: 25px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+/* BANNER */
+
+.preecha{
+    background-image:
+    linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+    url("../img/praia.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    height: 300px;
+
+    color: white;
+
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.preecha h1{
+    font-size: 45px;
+}
+
+.preecha h3{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* FORMULÁRIO */
+
+.formulario{
+    display: flex;
+    justify-content: center;
+
+    margin-top: -80px;
+}
+
+.form-viagem{
+    background: #f8f8f8;
+
+    width: 700px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+
+    margin-bottom: 80px;
+}
+
+.grupo-form{
+    margin-bottom: 20px;
+}
+
+.titulo-form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #14584b;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.icone-form img{
+    width: 18px;
+}
+
+.campo-form{
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+
+    font-size: 14px;
+}
+
+.linha-form{
+    display: flex;
+    gap: 15px;
+}
+
+.linha-form .campo-form{
+    flex: 1;
+}
+
+textarea.campo-form{
+    height: 90px;
+    resize: none;
+}
+
+.opcional{
+    color: gray;
+    font-size: 12px;
+}
+
+/* BOTÃO ENVIAR */
+
+.btn-enviar{
+    width: 100%;
+
+    background: #005937;
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.btn-enviar:hover{
+    background: #00492d;
+}
+
+/* SEGURANÇA */
+
+.seguranca-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+
+    font-size: 12px;
+    color: #444;
+
+    margin-top: 15px;
+}
+
+.seguranca-form img{
+    width: 14px;
+}
+
+/* FOOTER */
+
+.footer{
+    background: #045850;
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+.nav-foorter ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    list-style: none;
+}
+
+.footer p{
+    margin-top: 15px;
+    font-size: 11px;
+}
+/* FOOTER */
+
+.footer{
+    background: #045850;
+    color: white;
+    padding: 25px 40px;
+}
+
+.nav-foorter ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-foorter img{
+    width: 60px;
+    height: auto;
+}
+
+.footer .Titulo-nav{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.nav-foorter .escritas-nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.nav-foorter a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Ícones das redes */
+
+.nav-foorter .escritas-nav img{
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    background: transparent !important;
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 11px;
+}
+.footer img{
+    width: 60px;
+}
+.nav-foorter .escritas-nav img{
+    width: 80px;
+    height: auto;
+}
+#nome{
+    margin-bottom: 12px;
+}
+.preecha{
+    background-image:
+    linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("../img/Barra de pesquisa (2).png");
+
+    background-size: cover;
+    background-position: center;
+}
+.preecha{
+    background-image:
+        linear-gradient(
+            to right,
+            rgba(4, 88, 80, 0.9),
+            rgba(4, 88, 80, 0.2)
+        ),
+        url("../img/Barra de pesquisa (2).png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 300px;
+}
